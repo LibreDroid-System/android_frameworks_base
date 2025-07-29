@@ -206,3 +206,11 @@ prebuilt_etc {
     src: "com.android.systemui.xml",
     filename_from_src: true,
 }
+
+prebuilt_etc {
+    name: "privapp_whitelist_org.kde.kdeconnect_tp",
+    product_specific: true,
+    sub_dir: "permissions",
+    src: "org.kde.kdeconnect_tp.xml",
+    filename_from_src: true,
+}
