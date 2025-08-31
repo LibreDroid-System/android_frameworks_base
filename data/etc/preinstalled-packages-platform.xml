@@ -134,4 +134,32 @@ to pre-existing users, but cannot uninstall pre-existing system packages from pr
     <install-in-user-type package="com.android.avatarpicker">
         <install-in user-type="FULL" />
     </install-in-user-type>
+    
+    <!-- AudioFX -->
+    <install-in-user-type package="org.lineageos.audiofx">
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+    </install-in-user-type>
+    
+    <!-- Recorder -->
+    <install-in-user-type package="org.lineageos.recorder">
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+    </install-in-user-type>
+    
+    <!-- Calculator -->
+    <install-in-user-type package="com.android.calculator2">
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+    </install-in-user-type>
+    
+    <!-- LibreConnect -->
+    <install-in-user-type package="org.kde.kdeconnect_tp">
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+    </install-in-user-type>
 </config>
