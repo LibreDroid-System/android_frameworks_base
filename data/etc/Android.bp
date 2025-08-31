@@ -214,3 +214,14 @@ prebuilt_etc {
     src: "org.kde.kdeconnect_tp.xml",
     filename_from_src: true,
 }
+
+
+
+
+prebuilt_etc {
+    name: "privapp_whitelist_com.yuyan.pinyin.offline.release",
+    product_specific: true,
+    sub_dir: "permissions",
+    src: "com.yuyan.pinyin.offline.release.xml",
+    filename_from_src: true,
+}
